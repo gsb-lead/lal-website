@@ -38,6 +38,10 @@ enableEmoji = true
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[module]
+  [[module.imports]]
+    path = "blowfish"
+
 [related]
   threshold = 0
   toLower = false
