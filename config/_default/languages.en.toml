@@ -15,12 +15,12 @@ title = "LAL"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
-  name = "Anand Vijayachandran"
+  #name = "Anand Vijayachandran"
   email = "anand.vijayachandran@gmail.com"
   image = "img/LAL_Logo1.png"
   imageQuality = 75
   headline = "LEAD AI Launchpad"
-  bio = "Founder, DevOps Specialist, Project Manager, Software Engineer"
+  bio = "Anand Vijayachandran, Founder, Editor, DevOps Specialist, Project Manager, Software Engineer"
    links = [
      { email = "mailto:anand.vijayachandran@gmail.com" },
 #     { link = "https://link-to-some-website.com/" },

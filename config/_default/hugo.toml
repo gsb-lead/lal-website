@@ -21,6 +21,10 @@ enableEmoji = true
 [pagination]
   pagerSize = 100
 
+[params.multipage]
+  displayPaginator = false
+  displayPrevAndNext = true
+
 [imaging]
   anchor = 'Center'
 

@@ -1,6 +1,8 @@
 ---
 date: 2026-02-25T10:40:04-07:00
 title: The Five Ws Strategy 
+description: The Five Ws Strategy
+categories: ["leadership", "strategy", "networking"]
 ---
 
 {{< figure
