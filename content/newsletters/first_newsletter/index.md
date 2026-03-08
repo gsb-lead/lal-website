@@ -30,7 +30,7 @@ An investment co-pilot that is using AI to make ethical investment decisions for
 *But our AI strategy doesn’t stop there. We leverage AI heavily as an assistant in almost all aspects of our company and development.
 From brainstorming, polishing documents and slides, to coding, troubleshooting issues, and design UX of the product. We also use it to design our marketing strategy and analyze lots of data.* 
 
-*~ Mona El Mahdy, Founder*
+*~ Mohamed Magdy Mohamed, Co-founder, Mona El Mahdy, Co-founder*
 
 ### Gutway
 Gutway is taking dietary needs for seniors to another level by using AI to predict and deliver dietary care proactively.

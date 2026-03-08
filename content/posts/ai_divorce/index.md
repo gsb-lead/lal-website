@@ -10,6 +10,7 @@ categories: ["ai", "anthropic", "divorce", "Patriotism", "Regulation"]
   alt="AI Divorce"
   class="ma0 w-75"
 >}}
+
 # The Pentagon–Anthropic Showdown and What It Means for You
 
 > *"Disagreeing with the government is the most American thing in the world."*

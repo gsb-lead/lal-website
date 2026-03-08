@@ -4,7 +4,7 @@ title: About
 description: About LEAD AI Launchpad
 categories: ["about","founder","strategy"]
 ---
-The LEAD AI Launchpad was founded to provide a platform for entrerpreneurs to connect. 
+The LEAD AI Launchpad was founded to provide a platform for entrepreneurs to connect. 
 ## To empower founders to launch and scale AI-driven ventures through clear strategy, operational excellence, and transformative leadership.
 
 <img src="founder.jpg" alt="Founder" width="100%" height="100%">
