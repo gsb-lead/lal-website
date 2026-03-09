@@ -29,12 +29,12 @@ Standing in the quad was almost surreal—arched hallways stretching around me a
 
 From the moment I set foot on campus, I was dazzled by its beauty and the burst of energy in the air.
 
-- **Palm-lined walkways** filled with students rushing by on bikes  
-- Some clearly **late for class**, others perfecting their *Tour de Stanford* cycling skills  
-- Groups chatting animatedly with **backpacks slung in every direction**  
+- **Palm-lined walkways** with a few students lurking around on Sunday  
+- Some clearly perfecting their *Tour de Stanford* cycling skills  
+- Groups chatting animatedly at the **campus dining**  
 - Lawns filled with students attempting to study but mostly **soaking up the California sun**
 
-More than a few textbooks seemed suspiciously unused—serving primarily as props beneath stylish sunglasses.
+More than a few textbooks seemed suspiciously unused, serving primarily as props beneath stylish sunglasses.
 
 ---
 
@@ -58,9 +58,9 @@ The area around **Memorial Church** was especially lively.
 
 - Colorful **mosaics shimmered in the sunlight**
 - A sense of **peaceful calm** surrounded the central courtyard
-- Students passed through between classes, conversations echoing beneath the arches
+- Students and visitors passed through, conversations echoing beneath the arches
 
-Right in the center of the quad, the church seems to hold everything together—a symbol of history and tradition quietly observing the latest campus trends.
+Right in the center of the quad, the church seems to hold everything together, a symbol of history and tradition quietly observing the latest campus trends.
 
 Which, on this particular afternoon, included:
 
