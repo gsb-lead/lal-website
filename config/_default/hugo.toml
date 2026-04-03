@@ -75,3 +75,8 @@ googleAnalytics = "G-JCDLTY56CW"
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
