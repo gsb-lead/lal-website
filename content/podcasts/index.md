@@ -1,13 +1,14 @@
 ---
 date: 2026-04-01T12:00:00-07:00
 title: "Strategy Rewired"
-summary: "A podcast for AI founders, enterpreneurs and innovators discuss their AI strategies."
-description: "A podcast for AI founders, enterpreneurs and innovators discuss their AI strategies."
+summary: "Strategy Rewired is a podcast featuring AI founders, entrepreneurs, and innovators discussing transformative AI strategies, startup scaling, and execution frameworks."
+description: "Strategy Rewired podcast explores AI strategy, founder leadership, startup scaling, and entrepreneurial execution. Join conversations with AI founders and business leaders transforming AI ventures into scale-ready companies."
 draft: false
 categories: ["podcast", "strategy"]
-tags: ["ai", "leadership", "strategy", "podcast"]
+tags: ["ai", "ai-strategy", "startup-podcast", "founder-interviews", "leadership", "strategy", "podcast", "entrepreneurship", "business-strategy", "ai-entrepreneurship", "startup-scaling", "venture-strategy", "ai-innovation", "founder-stories", "tech-leadership", "business-execution"]
+keywords: ["ai strategy podcast", "startup interviews", "founder podcast", "ai entrepreneurship", "business strategy", "startup scaling", "leadership podcast", "tech entrepreneurs", "ai-driven ventures", "business execution"]
 featureimage: "featured.jpg"
-featureimagecaption: "Strategy Rewired"
+featureimagecaption: "Strategy Rewired - AI Strategy for Founders"
 showHero: true
 heroStyle: "background"
 layoutBackgroundBlur: true
