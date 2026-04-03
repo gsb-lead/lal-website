@@ -53,9 +53,14 @@
     #  weight = 30
 
 [[main]]
+ name = "Podcasts"
+ pageRef = "podcasts"
+ weight = 30
+
+[[main]]
  name = "About"
  pageRef = "about"
- weight = 30
+ weight = 40
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
