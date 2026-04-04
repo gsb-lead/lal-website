@@ -1,8 +1,12 @@
 ---
 date: 2026-02-27T11:35:04-07:00
 title: About
-description: About LEAD AI Launchpad
-categories: ["about","founder","strategy"]
+description: About LEAD AI Launchpad - Empowering AI founders and entrepreneurs with strategy, leadership, and execution frameworks.
+summary: Learn about Anand Vijayachandran and the mission of LEAD AI Launchpad.
+keywords: ["ai founder", "startup coach", "ai entrepreneurship", "founder coaching", "business strategy", "leadership coaching"]
+categories: ["about", "founder", "strategy"]
+showBreadcrumbs: true
+showTaxonomies: true
 ---
 The LEAD AI Launchpad was founded to provide a platform for entrepreneurs to connect. 
 ## To empower founders to launch and scale AI-driven ventures through clear strategy, operational excellence, and transformative leadership.

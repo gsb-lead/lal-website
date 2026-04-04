@@ -1,8 +1,13 @@
 ---
 date: 2026-02-25T10:40:04-07:00
 title: The Five Ws Strategy 
-description: The Five Ws Strategy
+description: The Five Ws Strategy - A practical framework for intentional event planning and network building.
+summary: Master the Five Ws framework (Why, When, Where, What, Who) to make strategic decisions about events and networking opportunities.
+keywords: ["event strategy", "networking", "decision framework", "leadership", "strategic planning", "intentional living"]
+tags: ["strategy", "leadership", "networking", "framework", "decision-making", "events"]
 categories: ["leadership", "strategy", "networking"]
+showBreadcrumbs: true
+showTaxonomies: true
 ---
 
 {{< figure

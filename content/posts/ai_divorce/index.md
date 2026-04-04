@@ -1,8 +1,13 @@
 ---
 date: 2026-03-04T12:40:04-07:00
 title: The AI Divorce Nobody Asked For
-description: "The AI Divorce Nobody Asked For: The Pentagon–Anthropic Showdown and What It Means for You"
-categories: ["ai", "anthropic", "divorce", "Patriotism", "Regulation"]
+description: "The Pentagon-Anthropic conflict reveals tensions between AI innovation, government regulation, nationalist policies, and business autonomy."
+summary: "Analyzing the Pentagon-Anthropic conflict and what it means for AI policy, regulation, and the future of American AI innovation."
+keywords: ["ai regulation", "anthropic", "pentagon", "ai policy", "government regulation", "ai ethics", "startup politics"]
+tags: ["ai", "anthropic", "regulation", "policy", "patriotism", "business", "technology", "politics"]
+categories: ["ai", "anthropic", "divorce", "patriotism", "regulation"]
+showBreadcrumbs: true
+showTaxonomies: true
 ---
 
 {{< figure

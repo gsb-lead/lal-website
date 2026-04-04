@@ -1,8 +1,13 @@
 ---
 date: 2026-03-07T16:00:04-07:00
 title: A trip down memory lane
-description: A trip down memory lane - nostalgic stroll through Stanford campus
-categories: ["stanford", "education", "nostaligia", "joy", "energy"]
+description: A nostalgic reflection on visiting Stanford campus, revisiting cherished memories and exploring the iconic architecture and history of this prestigious university.
+summary: Nostalgic reflections on returning to Stanford University campus and the journey through cherished memories.
+keywords: ["stanford university", "campus nostalgia", "education", "memories", "stanford history", "california", "travel"]
+tags: ["stanford", "education", "nostalgia", "joy", "energy", "memories", "california", "campus-life"]
+categories: ["stanford", "education", "nostalgia", "joy", "energy"]
+showBreadcrumbs: true
+showTaxonomies: true
 ---
 
 

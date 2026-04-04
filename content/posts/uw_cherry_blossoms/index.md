@@ -1,9 +1,13 @@
 ---
 date: 2026-03-22T17:00:04-07:00
 title: Spring at UW - Witnessing the Japanese Cherry Blossoms 
-description: A visit to the University of Washington campus during cherry blossom season—a breathtaking annual tradition where the campus transforms into a sea of pink and white blooms.
-tags: ["seattle", "nature", "uw", "cherry-blossoms", "travel"]
-categories: ["seattle", "travel"]
+description: Experience the University of Washington during cherry blossom season—a stunning annual spring tradition where the campus transforms into a sea of pink and white blooms.
+summary: A breathtaking journey through the University of Washington's iconic cherry blossoms during spring season.
+keywords: ["cherry blossoms", "uw campus", "seattle spring", "university of washington", "nature photography", "seasonal travel", "pacific northwest"]
+tags: ["seattle", "nature", "uw", "cherry-blossoms", "travel", "spring", "photography", "pacific-northwest"]
+categories: ["seattle", "travel", "nature"]
+showBreadcrumbs: true
+showTaxonomies: true
 ---
 
 
