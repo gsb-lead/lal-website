@@ -59,8 +59,38 @@
 
 [[main]]
  name = "About"
- pageRef = "about"
+ pageRef = "about/founder"
  weight = 40
+
+    [main.values]
+    name = "Values"
+    parent = "About"
+    pageRef = "about/values"
+    weight = 50
+
+        [main.values.integrity]
+        name = "Integrity"
+        parent = "Values"
+        pageRef = "integrity"
+        weight = 10
+
+        # [main.values.respect]
+        # name = "Respect"
+        # parent = "Values"
+        # pageRef = "respect"
+        # weight = 20
+
+        # [main.values.compassion]
+        # name = "Compassion"
+        # parent = "Values"
+        # pageRef = "compassion"
+        # weight = 30
+
+        [main.values.excellence]
+        name = "Excellence"
+        parent = "Values"
+        pageRef = "excellence"
+        weight = 40
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

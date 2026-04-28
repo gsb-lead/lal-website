@@ -29,7 +29,7 @@ I live by four core values that guide how I lead, build relationships, and creat
 - I seek to understand others’ perspectives before forming conclusions or making decisions.  
 - I proactively consider the needs, concerns, and well-being of my family, friends, teammates, and clients.
 
-## Excellence  
+## [Excellence](values/excellence)  
 - I hold myself to high standards and give my best effort in everything I pursue.  
 - I bring energy, discipline, and continuous improvement to both work and play — a trait I’ve carried since childhood.
 
