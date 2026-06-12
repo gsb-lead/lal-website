@@ -7,6 +7,10 @@ draft: false
 keywords: ["ai", "anthropic", "regulation", "claude", "fable 5", "mythos 5", "ai policy", "red teaming", "security"]
 tags: ["ai", "anthropic", "regulation", "claude", "fable 5", "mythos 5", "ai policy", "red teaming", "security"]
 categories: ["ai", "anthropic", "claude", "security", "regulation"]
+showHero: true
+heroStyle: "background"
+layoutBackgroundBlur: true
+layoutBackgroundHeaderSpace: true
 showBreadcrumbs: true
 showTaxonomies: true
 
