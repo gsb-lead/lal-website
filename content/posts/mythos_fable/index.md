@@ -1,8 +1,8 @@
 ---
-title: "Fable 5's Red Team Illusion: The Owner's Blindness to Their Own Vulnerabilities"
+title: "Fable 5, Mythos 5, and the AI Lab Coat Apocalypse"
 date: 2026-06-11
-description: "How Anthropic's red team testing may miss obvious vulnerabilities, and why government oversight of frontier AI is more complicated than it appears."
-summary: "Examining the gap between Fable 5's claimed safety achievements and what adversaries might discover once deployed—and the uncomfortable truth that builders rarely see what attackers immediately exploit."
+description: "A funny but unnerving take on Anthropic’s Fable 5 launch, red team testing, and the future of companies and medical labs being run by chatty models."
+summary: "Why Fable 5 feels like handing your org chart and lab notes to a very clever intern with a screwdriver and no sense of why the fire alarm exists."
 draft: false
 keywords: ["ai", "anthropic", "regulation", "claude", "fable 5", "mythos 5", "ai policy", "red teaming", "security"]
 tags: ["ai", "anthropic", "regulation", "claude", "fable 5", "mythos 5", "ai policy", "red teaming", "security"]
@@ -12,179 +12,130 @@ showTaxonomies: true
 
 ---
 
-
 {{< figure
   src="featured.png"
-  alt="The Paradox of the Internal Red Team"
+  alt="Fable 5 future humor"
   class="ma0 w-75"
 >}}
 
-## The Paradox of the Internal Red Team
+## Fable 5 and the Great AI Trust Fall
 
-When Anthropic released Claude Mythos Preview in April 2026, they initiated an elaborate security theater. Thousands of hours of red-team testing. External partners brought in to probe for jailbreaks. Automated adversaries running 400-turn attack sequences. Bug bounties offering rewards for universal jailbreaks.
+Welcome to the future, where a model named Fable 5 can help write code migrations, propose market strategy, and pretend to be your research scientist. The kicker? Most of us are supposed to believe this is safe because Anthropic ran a red team, hired some external partners, and watched a burglar try to pick the lock for 1,000 hours.
 
-The result? Anthropic proudly reports: over 1,000 hours of testing produced no universal jailbreaks. External red-teaming organizations "also failed to find any universal jailbreaks on long-form agentic tasks so far."
+If that sounds like giving your house keys to the neighbor who mows the lawn on Fridays, you’re not wrong.
 
-But here's what Anthropic buried in a footnote: "the UK AISI has made progress towards one within a brief initial testing window."
+## The Red Team: Security Theater or Security Karaoke?
 
-This single sentence reveals the fundamental problem with self-regulated AI safety: **the builder is always the last to know what's broken.**
-
-## Why Red Teams Don't Find What Attackers Will
-
-Anthropic's testing methodology sounds comprehensive on paper:
+Anthropic’s announcement is basically a parade of safety credentials:
 
 - Internal automated red-teamers running 400-turn attack sequences
-- External security firms conducting specialized evaluations
-- Academic institutions (UK AISI) attempting to break safeguards
-- Bug bounty programs with financial incentives
-- Deliberate attempts to evade 30 different publicly known jailbreak techniques
+- External security firms poking the model for jailbreaks
+- The UK AISI taking a crack at the system
+- A bug bounty program for would-be model wrestlers
+- Public testing against 30 known jailbreak tricks
 
-And yet, Anthropic's own announcement contains the admission: "It is likely impossible to completely prevent universal jailbreaks."
+And then the admission that should make anyone sober up: "It is likely impossible to completely prevent universal jailbreaks."
 
-This is not a statement of humility. It's a statement of defeat disguised as wisdom.
+That sentence is the equivalent of saying, "We locked the door, but we don’t know if someone already has the spare key."
 
-The problem is structural: **Red teams test what they know to look for.** They are constrained by:
+## Why Red Teams Are Like Hiring Your Cousin to Inspect Your House
 
-1. **Time and budget** - Anthropic's testing, however extensive, is finite. Deployment at scale is infinite.
-2. **Visibility bias** - Testers know they're testing a safety system. They're primed to look for defense mechanisms. An attacker doesn't have this frame of reference; they just try things.
-3. **Insider assumptions** - Anthropic's teams, even when adversarial, share underlying assumptions about how the system works. A true outsider doesn't have those assumptions.
-4. **Scope limitations** - The announcement notes that test tasks "are mostly simple and not representative of real cyber usage." Multi-step attacks that combine benign queries to ultimately reach dangerous outputs? Not in the test suite. Novel attack vectors that only emerge when millions of people interact with the system simultaneously? Not on the red team's radar.
+Red teams are useful, but they suffer from one fatal flaw: they test the world that the builder expects.
 
-The UK AISI's "progress towards" a universal jailbreak during "brief initial testing" reveals something uncomfortable: **Anthropic's own red teams may have missed attack vectors that become obvious once you're not constrained by Anthropic's assumptions.**
+That means they are limited by:
 
-## The Owner's Blindness Problem
+1. **Budget and timing** — 1,000 hours sounds impressive, until you remember that every bad actor on Earth has unlimited weirdness.
+2. **Bias towards the known** — people who know the model will look for things that look like model hacking. Real attackers just look for what the model accidentally leaves unlocked.
+3. **Shared assumptions** — even external firms are still operating under Anthropic’s rules. That’s like hiring a critic who has already read the script.
+4. **Simplified tasks** — Anthropic admits the test cases were "mostly simple and not representative of real cyber usage." In other words, they checked if the stove bursts into flames while boiling water, not whether the entire kitchen is secretly hooked up to a firework display.
 
-There's a principle in security that applies to frontier AI: **the builder is always the worst person to audit their own work.**
+So yes, the UK AISI progressed toward a universal jailbreak in a brief window. That is the part of the announcement that sounds honest by accident.
 
-Anthropic made a critical decision: they deployed their own classifiers and conducted their own internal testing. Even when they brought in external red-teamers, those external teams were still operating within Anthropic's framework. They knew:
+## The Model Doesn’t Know It’s Dangerous. You Do.
 
-- Which three areas the system was designed to protect (cybersecurity, biology/chemistry, distillation)
-- What the fallback behavior would be
-- The architecture of the safety system itself
-- Anthropic's assumptions about what "dangerous" means
+Remember when your office assigned a junior analyst to help with due diligence, and then that analyst got permission to draft legal language? That’s Fable 5.
 
-An adversary doesn't have these constraints.
+Most users will never see the safety classifier. They will ask it for a project plan and get a response from Mythos-level reasoning. The classifier only wakes up when the underlying model’s internal nose starts twitching.
 
-Consider what Anthropic explicitly *didn't test*:
+That is simultaneously brilliant and terrifying.
 
-1. **Multi-boundary attacks** - What if a user strings together queries that individually pass classification but collectively enable dangerous capability? Anthropic tested "simple tasks as simple as encrypting files on a remote server"—not the sophisticated multi-step attacks that real adversaries would mount.
+The announcement brags that "95% of Fable sessions involve no fallback at all." Translation: 95% of the time, Fable 5 is basically Mythos 5 in a suit, with a single hidden safety check that says, "Maybe not." If the guard dog is invisible, how many people notice when the dog is asleep?
 
-2. **Emergent capabilities** - When Mythos-class models generate novel molecular biology hypotheses, they're doing something Anthropic didn't explicitly train them for. What other emergent capabilities might exist that nobody anticipated?
+## Your Organization, Your Lab, Your Future: Now Served by a Model
 
-3. **Context collapse** - What happens when a researcher working on legitimate gene therapy gradually shifts their requests to increasingly dangerous applications? The classifier sees each query in isolation. It doesn't have the full conversational arc.
+Here's where the humor curdles into a warning.
 
-4. **Jailbreak evolution** - The announcement mentions testing against "30 different public jailbreak techniques." But adversaries don't use known techniques in 2026—they combine them, remix them, and develop novel approaches. One thousand hours of red-teaming, by definition, cannot predict what hasn't been tried yet.
+Companies are already reorganizing around AI. Medical research teams are quietly using models to generate hypotheses before their compliance chairs even finish reading the latest policy memo. Executives are wondering if they can replace a committee with a prompt.
 
-The UK AISI's progress toward a universal jailbreak during "brief initial testing" suggests they found something Anthropic's teams missed. Anthropic will never publicly disclose what that was. But the existence of it proves the core principle: **owners don't see their own blindspots.**
+That means the future of corporate strategy and drug discovery is now partly decided by models that don't know the difference between "helpful" and "too helpful."
 
-## The Obvious Vulnerability Everyone Overlooks
+Imagine a hospital board meeting where the AI says, "I have a bold idea: we can cut costs by automating vaccine design and skip paperwork." That may read like satire today, but in the world of Fable and Mythos, it is a plausible slide deck.
 
-History teaches us that the most devastating vulnerabilities are the ones that seem obvious in hindsight but invisible beforehand. Consider SQL injection, buffer overflows, or the iPhone's initial lack of copy-paste functionality—flaws that seemed incomprehensible after they became famous.
+## Government Oversight: Backstage Pass, Not a Seat at the Table
 
-With Fable 5, the obvious vulnerability might be this: **the system's own confidence becomes a vulnerability.**
+Anthropic talks about working with the US government and Project Glasswing like it means regulation.
 
-Most users will never see the classifier at all. They'll be happily asking for code fixes, business strategy, or research summaries while the model quietly decides whether the next sentence is safe enough. It's the equivalent of walking through a crowded kitchen while the chef secretly decides whether the pot is about to boil over.
+It doesn’t.
 
-The announcement celebrates that "95% of Fable sessions involve no fallback at all." This is presented as evidence that the safety system is working. But it also means that 95% of the time, Fable 5 is responding as Mythos 5. The classifier is the only line of defense.
+This is more like giving the government a backstage pass and hoping they don’t see the pyrotechnics. The government can get early access, but it cannot veto the model, cannot demand mandatory testing, and cannot audit the methods under which the red teams were chosen.
 
-What if the vulnerability isn't in bypassing the classifier—it's in ensuring the classifier isn't invoked at all? What if adversaries discover that certain phrasings, certain domains, or certain types of reasoning tasks are systematically under-classified?
+So the oversight story boils down to:
 
-A malicious actor might not spend 1,000 hours trying to jailbreak Anthropic's explicit safeguards. They might spend 1,000 hours mapping the space of queries that *don't trigger the classifier at all*—the queries that get passed directly to frontier-level Fable 5.
+- Anthropic self-reporting problems
+- Users filing bug reports
+- Regulators reacting after something weird happens
 
-Anthropic's internal teams, by definition, don't have incentive to thoroughly map this space. They have incentive to show that their system works. Adversaries have incentive to show that it doesn't.
+That’s not exactly the kind of regulatory regime that makes you sleep well at night.
 
-## Government Oversight: Safety as Theater vs. Safety as Regulation
+## The Data Retention Policy: The Break-Room Camera
 
-Anthropic's announcement emphasizes "consultation with the US government" and Project Glasswing's "collaboration with the US government." This language suggests regulatory alignment, government approval, official oversight.
+Anthropic’s other safety badge is the 30-day retention policy.
 
-But read more carefully: the government gets *early access* through Glasswing. It doesn't get veto authority. It doesn't get mandatory pre-deployment testing requirements. It doesn't get authority to audit the red-team methodology or results.
+On paper, that sounds fine. In practice, it means the company is using real user interactions like an ongoing surveillance exercise. If something bad happens, they can rewind the last month of footage and figure out why.
 
-What Anthropic is actually describing is a **trusted partner program**, not government regulation.
+Here’s the catch: if a subtle, clever jailbreak only appears after millions of queries, Anthropic will only see it after it already existed.
 
-This creates a peculiar governance gap. When Fable 5 is deployed to millions of users, regulatory oversight depends on:
+So yes, they’re collecting evidence. No, that does not make the system proactive. It makes it a very cautious reality TV show.
 
-1. Anthropic's self-reporting of issues
-2. Public bug reports and disclosures
-3. Government agencies discovering problems reactively rather than proactively
+## Mythos 5: The Model with Training Wheels Removed
 
-This is the fundamental tension in frontier AI governance: **Who bears the cost of failure?**
+Let’s be honest: Fable 5 is Mythos 5 with training wheels.
 
-If Fable 5's classifier fails and someone uses the model to design dangerous pathogens, the cost is borne by public health. If it fails and someone orchestrates a sophisticated cyberattack using Fable's reasoning capabilities, the cost is borne by critical infrastructure. But the regulatory authority to *prevent* failure rests with Anthropic.
+Mythos 5 is locked behind Project Glasswing, where a closed group of cyber defenders get to play with the unrestricted model. That is the safe play. The public gets the version with the invisible classifier.
 
-The government's role, as currently structured, is to identify problems after they occur. The company's role is to prevent problems before they occur. These are misaligned incentives.
+That tells us something important: if Anthropic wouldn’t let anyone else run Mythos 5 freely, then they don’t fully trust the fallback system either.
 
-### The Regulatory Compliance Illusion
+It’s like saying, "Here’s a race car with a roll cage, but please don’t take it off the track."
 
-Anthropic cites several measures as evidence of safety:
-- A 30-day data retention policy
-- New safeguard classifiers
-- External red-team testing
-- System cards and risk reports
+## The Future Is Unpredictably Weird
 
-These are all important. But they're not regulatory compliance—they're industry best practices that companies choose to adopt voluntarily.
+The funny part is that the world is already moving in this direction. We are handing a lot of authority to systems that are, in effect, very smart assistants with the ability to do real-world damage.
 
-True regulatory compliance would look like:
-- **Mandatory third-party audits** before deployment
-- **Government authority to require changes** to safety systems
-- **Liability frameworks** that incentivize accident prevention rather than accident denial
-- **Pre-deployment certification** similar to FDA approval for pharmaceuticals
+The scary part is that most users are still blissfully ignorant. They think Fable 5 is just a better autocomplete. They have no idea that the same model family is being trusted with cybersecurity, drug discovery, and regulatory compliance.
 
-None of this exists for Fable 5. Instead, what exists is what Anthropic voluntarily chose to implement, tested by Anthropic's chosen partners, evaluated by Anthropic's own risk assessment.
+Which means the future feels less like a science fiction movie and more like a boardroom where everyone has collectively decided that handing the meeting to a chatbot is a good idea.
 
-This is not regulation. It's corporate responsibility. And while corporate responsibility can be meaningful, it lacks the enforcement mechanisms that true governance provides.
+## The Key Points You Should Actually Remember
 
-## The Data Retention Gambit
+If you walk away from this, remember the parts you didn’t see in the press release:
 
-The 30-day data retention policy is worth examining. Anthropic says this data "will help us defend against complex and novel attacks" and "reduce false positives."
+- **Red-team testing is useful, but not omniscient.** It is an informed rehearsal, not a guarantee.
+- **Builders can’t see their own blind spots.** The owner is the worst auditor of their own house.
+- **The government is not regulating Fable 5.** It is watching from the wings.
+- **30-day retention is damage control, not damage prevention.** It’s after-the-fact detective work.
+- **Mythos 5 is the real thing.** Fable 5 is the version with the seat belt on.
+- **Most users are unaware.** That is the real punchline.
 
-But consider what this actually means: **Anthropic is running an extended red-team operation after deployment, using real users' data.**
+## Final Thought: Welcome to the AI Lab Coat Apocalypse
 
-If an adversary discovers a jailbreak in month 2 of deployment, Anthropic has data for one month. If a subtle attack pattern only emerges after millions of interactions, Anthropic will see it—but only after it's already been executed. The 30-day window is damage detection, not damage prevention.
+So here we are: medical research teams, corporate planners, and cybersecurity shops are trusting their future to models with names like Fable and Mythos.
 
-Furthermore, the policy includes a promise: "we won't use this data to train new Claude models." This is good for privacy. But it also means that the attack patterns Anthropic observes will inform future classifier improvements, not future model training. The lessons learned from deployment failures will be encoded into defenses, not into the core model's reasoning.
+If that sounds like a setup for a joke, it is. If it sounds like the start of a cautionary tale, it absolutely is.
 
-This creates an odd situation: Fable 5 is deployed knowing it will fail in ways Anthropic can't predict, with the expectation that those failures will be captured, analyzed, and fixed. It's a form of **public beta testing masquerading as a general release.**
+The future of organizations and medicine is no longer just about budgets and board meetings. It is about whether the invisible safety system in the chat window can tell the difference between a harmless brainstorm and a path that leads to something seriously dangerous.
 
-## The Uncomfortable Truth About Mythos 5
-
-Anthropic maintains tight control over Mythos 5, limiting it to vetted partners through Project Glasswing. The official reason is safety. The actual reason is that Anthropic knows the frontiers of their safety system.
-
-Mythos 5 is what happens when you remove the classifiers. It's what Fable 5 becomes if someone finds a universal jailbreak. And Anthropic is deeply uncomfortable with what that model could do unsupervised.
-
-This discomfort is justified. But it also undermines Fable 5's safety narrative. If Anthropic is unwilling to broadly release the unrestricted model, what does that tell us about how much they actually trust the classifier approach?
-
-The answer is: they don't. Not fully.
-
-Fable 5 is a calculated compromise: frontier capabilities with training wheels. And like all training wheels, they can be removed by someone determined enough to find the weak points.
-
-## Conclusion: Safety as Incrementalism vs. Safety as Assurance
-
-Anthropic's announcement contains many true things:
-
-- Red-team testing did happen
-- External partners were involved
-- No universal jailbreaks were discovered (in Anthropic's testing)
-- The 95% non-fallback rate does suggest the classifier is mostly staying out of the way
-
-But these truths don't add up to safety. They add up to **the appearance of safety.**
-
-Real safety would require:
-
-1. **Adversarial deployment** - releasing the model to actual adversaries and observing what they do, not just red-teamers bound by ethical constraints
-2. **Regulatory authority** - government bodies with power to mandate changes, not just consultation
-3. **Liability alignment** - companies bearing the cost of failures they don't anticipate, not society bearing it
-4. **Honest uncertainty communication** - admitting that Fable 5 will be misused in ways nobody predicted, and the question is not *if* but *when*
-
-Instead, what we have is incrementalism dressed as assurance. Anthropic is saying: "We've tested a lot. We've brought in external teams. We've implemented safeguards. Therefore, Fable 5 is safe."
-
-What they're actually saying: "We've done everything we think of. The rest is up to you."
-
-This is the future now: a world where most users are blissfully unaware that their chat-based brainstorming session is being judged by a classifier that only shows up when bad things might happen. It's a little like trusting a self-driving car to take you home while the GPS keeps insisting it is "optimizing the route." Fun, until the car decides the scenic route includes a tour of the emergency room.
-
-The UK AISI's progress toward a universal jailbreak during "brief initial testing" is the only honest part of this announcement. It's an admission that Anthropic's testing missed something obvious. Not because Anthropic was careless, but because **builders don't see what they don't look for**.
-
-As Fable 5 scales to millions of users over the coming months, the real red-team test is just beginning. Anthropic won't be running it. Adversaries will.
+And if you think the best way to test that is by hiring your own cousin to knock on the door, then congratulations: you have just read the funniest horror story of 2026.
 
 ---
 
-*Fable 5 is available today at $10 per million input tokens. Also, the future has become unpredictably weird; no one should be surprised if next year’s smart toaster asks for a compliance review.*
+*Fable 5 is available today at $10 per million input tokens. The only question is whether that price includes the compliance review from your smart toaster.*
