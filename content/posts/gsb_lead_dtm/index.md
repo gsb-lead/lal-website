@@ -1,8 +1,8 @@
 ---
-title: "From Toastmasters to Stanford LEAD: Two Games of Becoming a Better Leader"
+title: "Two Journeys, One Purpose: From Toastmasters to Stanford LEAD"
 date: 2026-08-31
-description: "A reflection on how nine years of Toastmasters and the Stanford GSB LEAD program both shaped me into a more confident, thoughtful, and action-oriented leader."
-summary: "Two milestones, one lesson: sustained practice, honest feedback, and a willingness to keep learning can transform a person from speaker to leader."
+description: "A reflection on how nine years of Toastmasters and the Stanford GSB LEAD program shaped me into a more confident, thoughtful, and action-oriented leader."
+summary: "Two journeys, one purpose: sustained practice, honest feedback, and a willingness to keep learning can transform a person from speaker to leader."
 draft: false
 keywords: ["toastmasters", "dtm", "stanford", "lead", "leadership", "professional development", "public speaking", "communication"]
 #tags: ["toastmasters", "dtm", "stanford", "lead", "leadership", "communication", "education"]
@@ -125,7 +125,7 @@ That is the arc of my journey: from speaking well to thinking clearly to buildin
 
 ## A Final Reflection
 
-In LEAD they call it reflection and in toastmasters they call it constructive feedback. One cannot improve without reflections and feedback on how they are doing. 
+In LEAD they call it reflection and in toastmasters they call it constructive feedback. One cannot improve without reflections and feedback. 
 
 Toastmasters gave me the discipline of communication. LEAD gave me the discipline of strategic leadership. Phoenix DevOps gave me the discipline of building practical resilient systems. Lead AI Launchpad gave me the discipline of shaping conversations and telling stories that matter. Together, they taught me that a strong leader is not someone who simply has ideas or speaks eloquently. A strong leader is someone who learns consistently, listens carefully, acts courageously, and keeps refining their craft.
 
@@ -135,7 +135,7 @@ And if there is one thing Toastmasters has taught me, it is this: even when the 
 
 That lesson carried me through Toastmasters, through the speak-a-thon in Arizona, through the Speechcraft effort, through LEAD, and into the work I now do through Phoenix DevOps and Lead AI Launchpad.
 
-It is a long game and a sprint. They have both been a good ones.
+It is both a long game and a sprint. They have both been good ones.
 
 ---
 
