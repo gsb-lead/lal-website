@@ -17,7 +17,7 @@ title = "LAL"
 [params.author]
   #name = "Anand Vijayachandran"
   email = "anand.vijayachandran@gmail.com"
-  image = "img/LAL_Logo1.png"
+  image = "img/LAL_Logo.png"
   imageQuality = 75
   headline = "LEAD AI Launchpad"
   bio = "Anand Vijayachandran, Founder, Editor, DevOps Specialist, Project Manager, Software Engineer"
